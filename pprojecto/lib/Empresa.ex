@@ -4,7 +4,7 @@ defmodule Empresa do
   It is available to have 4 fields to be filled.
   """
 
-  defe Empleado do
+  defmodule Empleado do
     defstruct [:nombre, :apellido, :id, :sector, :turno, :sueldo]
   end
 end
